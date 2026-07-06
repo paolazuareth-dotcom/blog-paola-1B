@@ -1,17 +1,22 @@
        .cabecalho{
-           background-color: rgba(176, 211, 221, 0.281);
-           color: rgb(185, 85, 85);
+           background-color: rgba(176, 211, 221, 0.295);
+           color: rgb(179, 70, 70);
            text-align:center;
            max-width: 800px;
+           margin:0 auto;
+           padding: 16px;
         }
 
         .conteudo-principal{
-            background-color: rgb(185, 85, 85);
-            color: rgb(176, 211, 221);
+            background-color: rgb(139, 70, 70);
+            color: rgb(179, 217, 226);
+            max-width: 800px;
+           margin:0 auto;
+           padding: 16px;
         } 
             .imagem-principal{
-                width: 80px;
-                height: 80px;
+                width: 250px;
+                height: 250px;
             }
 
             .cabecalho-paragrafo{
