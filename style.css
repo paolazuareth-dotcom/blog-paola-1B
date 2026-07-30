@@ -1,6 +1,6 @@
        .cabecalho{
-           background-color: rgba(176, 211, 221, 0.295);
-           color: rgb(179, 70, 70);
+           background-color: rgba(176, 211, 221, 0.336);
+           color: rgb(139, 80, 80);
            text-align:center;
            max-width: 800px;
            margin:0 auto;
@@ -8,8 +8,8 @@
         }
 
         .conteudo-principal{
-            background-color: rgb(139, 70, 70);
-            color: rgb(179, 217, 226);
+            background-color: rgb(139, 80, 80);
+            color: rgb(170, 207, 216);
             max-width: 800px;
            margin:0 auto;
            padding: 16px;
