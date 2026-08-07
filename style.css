@@ -13,6 +13,8 @@
             max-width: 800px;
            margin:0 auto;
            padding: 16px;
+           display: flex;
+           justify-content: space-between;
         } 
             .imagem-principal{
                 width: 250px;
@@ -34,5 +36,14 @@
                .imagem-secundaria{
                 width: 150px;
                 height: 150px;
-        
+                text-align: right;
+
             }
+
+            .imagem-terciaria{
+                width: 150px;
+                height: 150px;
+                text-align: right;
+
+            }
+            
