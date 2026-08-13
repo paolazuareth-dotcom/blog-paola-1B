@@ -12,20 +12,21 @@
             color: rgb(170, 207, 216);
             max-width: 800px;
            margin:0 auto;
-           padding: 16px
-           
+           padding: 16px;
+           display: flex;
+           justify-content: space-between;
            };
-
-        } 
-            .imagem-principal{
-                width: 250px;
-                height: 250px;
-            }
-
+            
             .cabecalho-paragrafo{
                 font-weight: bold;
             }
-
+            
+            imagem-principal {
+            width: 220px;
+             max-width: 100%;
+             height: auto;
+            display: block;
+}
             .cabecalho-autor{
                 font-weight:bold;
                 text-decoration: italic;
@@ -33,29 +34,16 @@
             .cabecalho-principal-texto{
                 font-weight: bold;
             }
-
-               .imagem-secundaria{
-                width: 150px;
-                height: 150px;
-                text-align: right;
-
-            }
-
-            .imagem-terciaria{
-                width: 150px;
-                height: 150px;
-                text-align: right;
-            }
             article {
-                    display: flex;
-                        flex-direction: column;
-                            align-items: center;
-                                text-align: center;
-                                    justify-content: center;
-                                        border: 1px solid #183C63;
-                                            margin: 16px;
-                                                gap: 16px;
-                                                    padding: 16px;
-                                                        flex: 1 1 25%;
-                                                        }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            border: 1px solid #183C63;
+            margin: 16px;
+            gap: 16px;
+               padding: 16px;
+             flex: 1 1 25%;
+             }
             }
