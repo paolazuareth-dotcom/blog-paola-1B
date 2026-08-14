@@ -1,49 +1,54 @@
-       .cabecalho{
+       .cabecalho {
            background-color: rgba(176, 211, 221, 0.336);
            color: rgb(139, 80, 80);
-           text-align:center;
+           text-align: center;
            max-width: 800px;
-           margin:0 auto;
+           margin: 0 auto;
            padding: 16px;
-        }
+       }
 
-        .conteudo-principal{
-            background-color: rgb(139, 80, 80);
-            color: rgb(170, 207, 216);
-            max-width: 800px;
-           margin:0 auto;
+       .conteudo-principal {
+           background-color: rgb(139, 80, 80);
+           color: rgb(170, 207, 216);
+           max-width: 800px;
+           margin: 0 auto;
            padding: 16px;
            display: flex;
            justify-content: space-between;
-           };
-            
-            .cabecalho-paragrafo{
-                font-weight: bold;
-            }
-            
-            imagem-principal {
-            width: 220px;
-             max-width: 100%;
-             height: auto;
-            display: block;
-}
-            .cabecalho-autor{
-                font-weight:bold;
-                text-decoration: italic;
-            }
-            .cabecalho-principal-texto{
-                font-weight: bold;
-            }
-            article {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            justify-content: center;
-            border: 1px solid #183C63;
-            margin: 16px;
-            gap: 16px;
-               padding: 16px;
-             flex: 1 1 25%;
-             }
-            }
+       }
+
+       
+
+       .cabecalho-paragrafo {
+           font-weight: bold;
+       }
+
+       .imagem-principal {
+           width: 150px;
+           max-width: 100%;
+           height: auto;
+           display: block;
+       }
+
+       .cabecalho-autor {
+           font-weight: bold;
+           text-decoration: italic;
+       }
+
+       .cabecalho-principal-texto {
+           font-weight: bold;
+       }
+
+       article {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           text-align: center;
+           justify-content: center;
+           border: 1px solid #183C63;
+           margin: 16px;
+           gap: 16px;
+           padding: 16px;
+           flex: 1 1 25%;
+       }
+    
